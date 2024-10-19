@@ -44,7 +44,7 @@ function Eventspage() {
             </div>
           </div>
         </div>
-        <div className=" glass-morphic lg:m-20 mt-32 p-4 lg:p-12 shadow-2xl rounded-2xl" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0">
+        <div className=" glass-morphic lg:m-20 mt-32 p-4 lg:p-12 shadow-2xl rounded-2xl" data-aos="flip-up" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-offset="0" data-aos-mirror = "true">
           <div className="flex flex-row justify-start items-center">
             <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
             <h1 className="text-[25px] ml-[-25px] font-bold">Road Map</h1>
@@ -58,7 +58,7 @@ function Eventspage() {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-mirror="true">
         <div className="flex flex-col justify-center items-center gap-4 mt-20 p-8 text-center" >
           <div>
             <h1 className="text-5xl font-bold">Win Exciting Prizes!</h1>
@@ -78,7 +78,7 @@ function Eventspage() {
         {/* past events cards */}
 
         <div className="md:m-20 m-4 mt-20" >
-          <div className="flex flex-col justify-center items-center lg:m-4 p-4 md:p-2 shadow-2xl rounded-2xl" data-aos="fade-up">
+          <div className="flex flex-col justify-center items-center lg:m-4 p-4 md:p-2 shadow-2xl rounded-2xl" data-aos="fade-up" data-aos-mirror="true">
             <h1 className="font-bold text-[32px] uppercase">Past Events</h1>
             <div className="flex md:flex-row flex-col justify-center ">
               <div className="event-card-container">

@@ -90,8 +90,7 @@ body {
 }
 
 .register-button:hover {
-  background-color: #f5ee33;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .participate-button {

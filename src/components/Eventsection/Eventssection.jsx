@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 
 function Eventsection() {
     return (
+        <div data-aos="fade-up"  data-aos-anchor-placement="center-bottom">
         <div className="glass-morphic lg:m-20 m-4 p-4 lg:p-12 shadow-2xl rounded-2xl ">
             <div className="flex flex-row justify-start items-center">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
@@ -95,10 +96,11 @@ function Eventsection() {
                 </div>
                 <div className="flex flex-col justify-center items-center">
                     <Link spy={true} smooth={true} to="/Events">
-                        <button className="p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
+                        <button className="transition ease-in-out hover:scale-110 p-4 rounded-xl bg-[#FED853] font-bold mt-[-50px]">Know More</button>
                     </Link>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
